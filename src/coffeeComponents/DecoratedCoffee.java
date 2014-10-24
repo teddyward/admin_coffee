@@ -2,9 +2,13 @@ package coffeeComponents;
 
 import java.util.ResourceBundle;
 
+/**
+ * Super class for all decorated coffees (eg: with sprinkles, with milk...)
+ * @author Teddy Ward
+ */
 public abstract class DecoratedCoffee implements Coffee {
 
-	public final Coffee decoratedCoffee;
+	private final Coffee decoratedCoffee;
 	
 	protected ResourceBundle resources;
 	
@@ -13,6 +17,9 @@ public abstract class DecoratedCoffee implements Coffee {
         this.resources = resources;
     }
  
+    /**
+     * At the superclass level, just return the cost of the coffee we're decorating
+     */
     public double getCost() {
         return decoratedCoffee.getCost();
     }

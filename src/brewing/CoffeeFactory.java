@@ -11,7 +11,7 @@ import coffeeComponents.CoffeeWithWhippedCream;
 /**
  * Factory for adding ingredients to a coffee.
  * Currently uses if statements to instantiate ingredients,
- * Should be refactored to create ingredients using reflection.
+ * TODO: refactor to create ingredients using reflection.
  * @author Teddy Ward
  */
 public class CoffeeFactory {

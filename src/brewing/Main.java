@@ -5,8 +5,7 @@ package brewing;
  * Only returns basic strings for now, but one could imagine
  * this being part of a larger structure where those strings / values had
  * to be computed in a more complex way.
- * @author Teddy
- *
+ * @author Teddy Ward
  */
 public class Main {
 	

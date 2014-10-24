@@ -6,6 +6,12 @@ import java.util.Scanner;
 import coffeeComponents.Coffee;
 import coffeeComponents.SimpleCoffee;
 
+/**
+ * The "view."  Deals with the "customer."
+ * bonus UX TODO: grammar structures more suitable for internationalization
+ * bonus UX TODO: allow spaces after commas
+ * @author Teddy Ward
+ */
 public class CoffeeHouse {
 	
 	private CoffeeFactory factory;
